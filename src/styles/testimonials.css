@@ -1,0 +1,56 @@
+.testimonials {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    background-color: #F8D7A4;
+
+}
+
+.testimonials__heading  {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.testimonials__text {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 80px;
+}
+
+.testimonials__picture {
+    text-align: center;
+}
+
+.testimonials__image {
+margin-bottom: 50px;
+}
+.testimonials__review {
+    width: 600px;
+    text-align: center;
+}
+
+.testimonials__name {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #272727;
+    margin-bottom: 15px;
+}
+
+.testimonials__city {
+    font-size:24px ;
+    font-weight: 300;
+    line-height: 1.5;
+    color:#979797;
+font-style: italic;
+}
+
+
+.testimonials__text--review {
+    font-size:24px ;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: italic;
+margin-bottom: 65px;
+}
