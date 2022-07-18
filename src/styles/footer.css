@@ -61,3 +61,10 @@
     padding: 10px;
     border: 1px solid #A55C30;
 }
+
+.footer__social-media {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top : 20px;
+}
