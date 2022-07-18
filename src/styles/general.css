@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Lora;
+    font-display: swap;
+    font-weight: 400;
+    src: url("../../src/fonts/Lora-Regular.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: Lora;
+    font-display: swap;
+    font-weight: 500;
+    src: url("../../src/fonts/Lora-Medium.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: Lora;
+    font-display: swap;
+    font-weight: 500;
+    src: url("../../src/fonts/Lora-SemiBold.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: Lora;
+    font-display: swap;
+    font-weight: 500;
+    src: url("../../src/fonts/Lora-Bold.woff2") format('woff2');
+}
+
+
+body {
+    font-family: Lora, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
