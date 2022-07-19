@@ -62,9 +62,11 @@
     border: 1px solid #A55C30;
 }
 
-.footer__social-media {
+
+.footer__social-list {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 40px;
     margin-top : 20px;
 }

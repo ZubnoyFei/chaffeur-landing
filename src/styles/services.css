@@ -1,6 +1,6 @@
 .services {
-    padding-top: 65px;
-    padding-bottom: 30px;
+    padding-top: 200px;
+    padding-bottom: 130px;
     background-image: url("../../src/images/services-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,22 +10,26 @@
 
 .services__heading {
     text-align: center;
-    margin-top: 130px;
+    margin-bottom: 70px;
 }
 
 .services__list {
-    margin-top: 70px;
-    margin-bottom: 100px;
+
     display: flex;
     justify-content: space-between;
+
 }
 
 .services__item {
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .services__icon {
     margin-bottom: 60px;
+
 }
 
 .services__subheading {

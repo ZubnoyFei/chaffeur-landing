@@ -18,8 +18,10 @@
     width: 380px;
     background: #FFFFFF;
     box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.1);
-    padding: 25px;
-
+    padding-top: 90px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
 }
 
 .fleet__main-info-wrapper {
@@ -28,7 +30,7 @@
 }
 
 .fleet__image {
-    margin-top: 65px;
+
     margin-bottom: 30px;
     height: 160px;
 }

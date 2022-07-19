@@ -49,13 +49,13 @@
         <img src="src/images/About-image.png" alt="A man drives a car" class="about__image">
         <div class="about__text-wrapper">
             <h2 class="about__heading heading">About</h2>
-            <p class="about__text">
+            <p class="about__text about__text--first">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. We are known for luxurious and
                 premium chaffeur services worldwide. We are simply the best you can find.
                 ultrices mi viverra viverra. Mi, arcu sem nec risus cursus ipsum leo. Eget erat tincidunt risus gravida
                 quis massa. Mauris, sed eu ut tellus sed sed morbi.
             </p>
-            <p class="about__text about__text--bottom">
+            <p class="about__text">
                 Rhoncus ultricies vel enim montes, molestie sagittis dis. Cras lorem enim elementum vel massa. Massa
                 natoque ac libero adipiscing facilisis vel iaculis. Sed nunc consectetur leo, in sollicitudin. Proin et
                 aenean vitae in nunc pellentesque tristique.
@@ -226,21 +226,25 @@
     <h2 class="contact__heading heading">
         Contact
     </h2>
-    <form action="#" class="contact__form">
-        <label for="contact__name" class="contact__label">
-            <input type="text" id="contact__name" placeholder="Your Name" class="contact__subheading">
-        </label>
-        <label for="contact__email" class="contact__label">
-            <input type="text" id="contact__email" placeholder="Email" class="contact__subheading">
-        </label>
-        <label for="contact__car" class="contact__label">
-            <input type="text" id="contact__car" placeholder="Type of car" class="contact__subheading">
-        </label>
-        <label for="textarea" class="contact__text-area" >
-            <textarea name="textarea" id="textarea" placeholder="Your details" ></textarea>
-        </label>
-        <button class="contact__button" type="submit">Send</button>
-    </form>
+<div class="contact__form-wrapper">
+ <div class="contact__label-wrapper">
+     <form action="#" class="contact__form">
+         <label for="contact__name" class="contact__label">
+             <input type="text" id="contact__name" placeholder="Your Name" class="contact__subheading">
+         </label>
+         <label for="contact__email" class="contact__label">
+             <input type="text" id="contact__email" placeholder="Email" class="contact__subheading">
+         </label>
+         <label for="contact__car" class="contact__label">
+             <input type="text" id="contact__car" placeholder="Type of car" class="contact__subheading">
+         </label>
+         <label for="textarea" class="contact__text-area" >
+             <textarea name="textarea" id="textarea" placeholder="Your details" ></textarea>
+         </label>
+         <button class="contact__button" type="submit">Send</button>
+     </form>
+ </div>
+</div>
 </div>
 </section>
 <footer class="footer">
@@ -288,9 +292,17 @@
     </div>
 </div>
     <div class="container footer__social-media">
-            <a href="#"><img src="./src/images/icons/fb-footer.png" alt="A facebook icon" class="footer__social icon"></a>
-            <a href="#"> <img src="./src/images/icons/twitter-footer.png" alt="A twitter icon" class="footer__social icon"></a>
-            <a href="#"><img src="./src/images/icons/insta-footer.png" alt="An instagram icon" class="footer__social icon"></a>
+       <ul class="footer__social-list">
+           <li class="footer__social-item">
+               <a href="#"><img src="./src/images/icons/fb-footer.png" alt="A facebook icon" class="footer__social icon"></a>
+           </li>
+           <li class="footer__social-item">
+               <a href="#"> <img src="./src/images/icons/twitter-footer.png" alt="A twitter icon" class="footer__social icon"></a>
+           </li>
+           <li class="footer__social-item">
+               <a href="#"><img src="./src/images/icons/insta-footer.png" alt="An instagram icon" class="footer__social icon"></a>
+           </li>
+       </ul>
     </div>
 </footer>
 </body>
